@@ -77,7 +77,7 @@ body{
 header {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8))
-    ,url('../img/header-bg.jpeg') fixed center no-repeat;
+    ,url('../assets/images/header-bg.jpeg') fixed center no-repeat;
      background-size: cover;
      clip-path: polygon(0 0, 100% 0,100% 90% ,0 100%);
 }
@@ -141,7 +141,7 @@ animation: beating 2s infinite ;
 /* suggested-books */
 .suggested-books{
     height: 113vh;
-    background: url("/img/wood-bg.jpeg")  ;
+    background: url("../assets/images/wood-bg.jpeg")  ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,13 +244,13 @@ animation: beating 2s infinite ;
 .contact {
     
     background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9))
-    ,url('../img/header-bg.jpeg') fixed center no-repeat;
+    ,url('../assets/images/header-bg.jpeg') fixed center no-repeat;
      background-size: cover;
 }
 .items-wrapper{
     background: linear-gradient(rgba(0,0,0,.4),
     rgba(0,0,0,.6))
-    ,url('../img/items-wrapper-bg.jpg')  center no-repeat;
+    ,url('../assets/images/items-wrapper-bg.jpg')  center no-repeat;
      background-size: cover;
      border-radius: 5px;
 }
